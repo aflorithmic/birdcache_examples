@@ -11,7 +11,7 @@
 2. get into the folder `cd birdcache_examples`
 3. create a virtual env `python3 -m venv venv`
 4. activate the virtual env `source venv/bin/activate`
-5. install the python dependencies `pip3 install -r requirements`
+5. install the python dependencies `pip3 install -r requirements.txt`
 6. open `birdcache.py` file and put your api key and your voice name
 7. run the code `python3 birdcache.py`
 8. you may edit the sentences in `sentences.txt` file
