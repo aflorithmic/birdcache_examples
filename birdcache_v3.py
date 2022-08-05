@@ -57,11 +57,11 @@ def birdcache_v3_mastering():
     )
     r = r.json()
 
-    pprint("speech text files produced:")
+    pprint("mastering text files produced:")
     for req in r:
         print(req["text"])
 
-    pprint("speech urls produced:")
+    pprint("mastering urls produced:")
     for req in r:
         print(req["text"] + " - " + (req["url"] if req["ready"] else "in progress"))
 
